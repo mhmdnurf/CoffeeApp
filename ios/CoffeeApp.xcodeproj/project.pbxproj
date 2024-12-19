@@ -8,13 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* CoffeeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CoffeeAppTests.m */; };
+		02CF3405E6994C5CB1ABDA14 /* Mont-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EF61D7A02AF4E9592BEF6F2 /* Mont-Bold.ttf */; };
+		03702BD3CBAD4421BD3AE5EA /* Mont-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2C12992F4ED47629712C8AB /* Mont-SemiBold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-CoffeeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-CoffeeApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1580E519BC7542E9A9BD674B /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EECEF76D08394DFA96037A1B /* Poppins-ExtraBold.ttf */; };
+		1EC9CF12FC6F4867897E4725 /* Mont-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39665444741E49FDA85142B4 /* Mont-Regular.ttf */; };
+		1F3069C4E09540CEBDD46A2E /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CCA2D4195E94E78A789C965 /* Poppins-Medium.ttf */; };
+		2ACB72E0459747DC976F9D3A /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E76B98B53B340B0B0EE049E /* Poppins-Regular.ttf */; };
+		4C02C98AB0A64DD487BB8F0F /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D847DC7F268E441F8987604A /* Pacifico-Regular.ttf */; };
 		6132EF182BDFF13200BBE14D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */; };
+		628166BC585446D9BB8BFACD /* Mont-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94D89521DE6F436CA5F04F0D /* Mont-RegularItalic.ttf */; };
+		67E774E7A1F24C95844299BF /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FCD98AFC62E49EA8A5D36EC /* Nunito-Bold.ttf */; };
+		6AFA319F46AF44CFA6AA0186 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3564817268841E4AFE7E5D0 /* Nunito-ExtraBold.ttf */; };
+		6F45940ADA3646B59ADC2695 /* Mont-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACC3C1351CAD4645A5EE46DA /* Mont-Heavy.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-CoffeeApp-CoffeeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CoffeeApp-CoffeeAppTests.a */; };
+		789D47A8D1C646A294391E1E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47DC2CF22B014880B9A66ECE /* Poppins-SemiBold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9A451249C41842EDA5CD9666 /* Mont-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25A210A1874A472E88F1CE4B /* Mont-ExtraLight.ttf */; };
+		9CE339FB6F29461680E381AC /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 016762C361024A2AB2374CC2 /* Nunito-ExtraLight.ttf */; };
+		BB09AE4D44FE48139E53A5EA /* Mont-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 909DF57594054A43861C1154 /* Mont-Light.ttf */; };
+		C8DE45E9C9B647D09B7D9700 /* Mont-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D72ED3E186D54EF6AC9BB3F5 /* Mont-Thin.ttf */; };
+		D0382B59660D40AFBD2FA2A0 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AA35D07A8C4B0FAB311167 /* Poppins-ExtraLight.ttf */; };
+		D04FDF7FFE034321B3C5E2DA /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 726BA6D7AD064386A934773B /* Nunito-Light.ttf */; };
+		DF6111BC0D88432D83E5C80E /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0E3EA2403144D24A85EC3FC /* Nunito-SemiBold.ttf */; };
+		DF91ADB19EE24243A5ED5540 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6172C77D4BE24D37B45F5AFC /* Nunito-Medium.ttf */; };
+		E08A634990F64915BF281C58 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28E2424BE1FF4CC39036EB29 /* Poppins-Thin.ttf */; };
+		EA07D00AA01C4F09BC42D822 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E39BCF17CCB64C4E855BB77A /* Poppins-Bold.ttf */; };
+		F2CD6638AD2E46B2A46A4ECA /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B492225B30BF495398CB781B /* Poppins-Light.ttf */; };
+		F473C0FB409B403B8AFEAEA9 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DAA22BE31EC414785CA9849 /* Nunito-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +55,7 @@
 		00E356EE1AD99517003FC87E /* CoffeeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* CoffeeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeAppTests.m; sourceTree = "<group>"; };
+		016762C361024A2AB2374CC2 /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraLight.ttf"; path = "../src/assets/fonts/Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CoffeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CoffeeApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CoffeeApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,14 +63,37 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CoffeeApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CoffeeApp/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-CoffeeApp-CoffeeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeApp-CoffeeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A210A1874A472E88F1CE4B /* Mont-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mont-ExtraLight.ttf"; path = "../src/assets/fonts/Mont-ExtraLight.ttf"; sourceTree = "<group>"; };
+		28E2424BE1FF4CC39036EB29 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../src/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		2DAA22BE31EC414785CA9849 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Regular.ttf"; path = "../src/assets/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		39665444741E49FDA85142B4 /* Mont-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mont-Regular.ttf"; path = "../src/assets/fonts/Mont-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-CoffeeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeApp.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeApp/Pods-CoffeeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3CCA2D4195E94E78A789C965 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		3EF61D7A02AF4E9592BEF6F2 /* Mont-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mont-Bold.ttf"; path = "../src/assets/fonts/Mont-Bold.ttf"; sourceTree = "<group>"; };
+		47DC2CF22B014880B9A66ECE /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-CoffeeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeApp.release.xcconfig"; path = "Target Support Files/Pods-CoffeeApp/Pods-CoffeeApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-CoffeeApp-CoffeeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeApp-CoffeeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeApp-CoffeeAppTests/Pods-CoffeeApp-CoffeeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-CoffeeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCD98AFC62E49EA8A5D36EC /* Nunito-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Bold.ttf"; path = "../src/assets/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		6132EF172BDFF13200BBE14D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = CoffeeApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		6172C77D4BE24D37B45F5AFC /* Nunito-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Medium.ttf"; path = "../src/assets/fonts/Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		726BA6D7AD064386A934773B /* Nunito-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Light.ttf"; path = "../src/assets/fonts/Nunito-Light.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CoffeeApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-CoffeeApp-CoffeeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeApp-CoffeeAppTests.release.xcconfig"; path = "Target Support Files/Pods-CoffeeApp-CoffeeAppTests/Pods-CoffeeApp-CoffeeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		909DF57594054A43861C1154 /* Mont-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mont-Light.ttf"; path = "../src/assets/fonts/Mont-Light.ttf"; sourceTree = "<group>"; };
+		91AA35D07A8C4B0FAB311167 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		94D89521DE6F436CA5F04F0D /* Mont-RegularItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mont-RegularItalic.ttf"; path = "../src/assets/fonts/Mont-RegularItalic.ttf"; sourceTree = "<group>"; };
+		9E76B98B53B340B0B0EE049E /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		ACC3C1351CAD4645A5EE46DA /* Mont-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mont-Heavy.ttf"; path = "../src/assets/fonts/Mont-Heavy.ttf"; sourceTree = "<group>"; };
+		B2C12992F4ED47629712C8AB /* Mont-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mont-SemiBold.ttf"; path = "../src/assets/fonts/Mont-SemiBold.ttf"; sourceTree = "<group>"; };
+		B492225B30BF495398CB781B /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		D72ED3E186D54EF6AC9BB3F5 /* Mont-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mont-Thin.ttf"; path = "../src/assets/fonts/Mont-Thin.ttf"; sourceTree = "<group>"; };
+		D847DC7F268E441F8987604A /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pacifico-Regular.ttf"; path = "../src/assets/fonts/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		E39BCF17CCB64C4E855BB77A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EECEF76D08394DFA96037A1B /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F0E3EA2403144D24A85EC3FC /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBold.ttf"; path = "../src/assets/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		F3564817268841E4AFE7E5D0 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraBold.ttf"; path = "../src/assets/fonts/Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +156,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3860B9B011D24511B6D2BB6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D847DC7F268E441F8987604A /* Pacifico-Regular.ttf */,
+				3EF61D7A02AF4E9592BEF6F2 /* Mont-Bold.ttf */,
+				25A210A1874A472E88F1CE4B /* Mont-ExtraLight.ttf */,
+				ACC3C1351CAD4645A5EE46DA /* Mont-Heavy.ttf */,
+				909DF57594054A43861C1154 /* Mont-Light.ttf */,
+				39665444741E49FDA85142B4 /* Mont-Regular.ttf */,
+				94D89521DE6F436CA5F04F0D /* Mont-RegularItalic.ttf */,
+				B2C12992F4ED47629712C8AB /* Mont-SemiBold.ttf */,
+				D72ED3E186D54EF6AC9BB3F5 /* Mont-Thin.ttf */,
+				5FCD98AFC62E49EA8A5D36EC /* Nunito-Bold.ttf */,
+				F3564817268841E4AFE7E5D0 /* Nunito-ExtraBold.ttf */,
+				016762C361024A2AB2374CC2 /* Nunito-ExtraLight.ttf */,
+				726BA6D7AD064386A934773B /* Nunito-Light.ttf */,
+				6172C77D4BE24D37B45F5AFC /* Nunito-Medium.ttf */,
+				2DAA22BE31EC414785CA9849 /* Nunito-Regular.ttf */,
+				F0E3EA2403144D24A85EC3FC /* Nunito-SemiBold.ttf */,
+				E39BCF17CCB64C4E855BB77A /* Poppins-Bold.ttf */,
+				EECEF76D08394DFA96037A1B /* Poppins-ExtraBold.ttf */,
+				91AA35D07A8C4B0FAB311167 /* Poppins-ExtraLight.ttf */,
+				B492225B30BF495398CB781B /* Poppins-Light.ttf */,
+				3CCA2D4195E94E78A789C965 /* Poppins-Medium.ttf */,
+				9E76B98B53B340B0B0EE049E /* Poppins-Regular.ttf */,
+				47DC2CF22B014880B9A66ECE /* Poppins-SemiBold.ttf */,
+				28E2424BE1FF4CC39036EB29 /* Poppins-Thin.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +205,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				3860B9B011D24511B6D2BB6F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -247,6 +328,30 @@
 				6132EF182BDFF13200BBE14D /* PrivacyInfo.xcprivacy in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4C02C98AB0A64DD487BB8F0F /* Pacifico-Regular.ttf in Resources */,
+				02CF3405E6994C5CB1ABDA14 /* Mont-Bold.ttf in Resources */,
+				9A451249C41842EDA5CD9666 /* Mont-ExtraLight.ttf in Resources */,
+				6F45940ADA3646B59ADC2695 /* Mont-Heavy.ttf in Resources */,
+				BB09AE4D44FE48139E53A5EA /* Mont-Light.ttf in Resources */,
+				1EC9CF12FC6F4867897E4725 /* Mont-Regular.ttf in Resources */,
+				628166BC585446D9BB8BFACD /* Mont-RegularItalic.ttf in Resources */,
+				03702BD3CBAD4421BD3AE5EA /* Mont-SemiBold.ttf in Resources */,
+				C8DE45E9C9B647D09B7D9700 /* Mont-Thin.ttf in Resources */,
+				67E774E7A1F24C95844299BF /* Nunito-Bold.ttf in Resources */,
+				6AFA319F46AF44CFA6AA0186 /* Nunito-ExtraBold.ttf in Resources */,
+				9CE339FB6F29461680E381AC /* Nunito-ExtraLight.ttf in Resources */,
+				D04FDF7FFE034321B3C5E2DA /* Nunito-Light.ttf in Resources */,
+				DF91ADB19EE24243A5ED5540 /* Nunito-Medium.ttf in Resources */,
+				F473C0FB409B403B8AFEAEA9 /* Nunito-Regular.ttf in Resources */,
+				DF6111BC0D88432D83E5C80E /* Nunito-SemiBold.ttf in Resources */,
+				EA07D00AA01C4F09BC42D822 /* Poppins-Bold.ttf in Resources */,
+				1580E519BC7542E9A9BD674B /* Poppins-ExtraBold.ttf in Resources */,
+				D0382B59660D40AFBD2FA2A0 /* Poppins-ExtraLight.ttf in Resources */,
+				F2CD6638AD2E46B2A46A4ECA /* Poppins-Light.ttf in Resources */,
+				1F3069C4E09540CEBDD46A2E /* Poppins-Medium.ttf in Resources */,
+				2ACB72E0459747DC976F9D3A /* Poppins-Regular.ttf in Resources */,
+				789D47A8D1C646A294391E1E /* Poppins-SemiBold.ttf in Resources */,
+				E08A634990F64915BF281C58 /* Poppins-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
