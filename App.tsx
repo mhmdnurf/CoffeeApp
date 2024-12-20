@@ -4,9 +4,11 @@ import {createStackNavigator} from '@react-navigation/stack';
 import SplashScreen from './src/screens/SplashScreen';
 import {RootStackParamList} from './src/types/types';
 import OnBoardingScreen from './src/screens/OnBoardingScreen';
+import BottomTab from './src/components/BottomTab';
 
 export default function App() {
   const Stack = createStackNavigator<RootStackParamList>();
+
   return (
     <>
       <NavigationContainer>
@@ -16,6 +18,7 @@ export default function App() {
           }}>
           <Stack.Screen name="SplashScreen" component={SplashScreen} />
           <Stack.Screen name="OnBoardingScreen" component={OnBoardingScreen} />
+          <Stack.Screen name="HomeScreen" component={BottomTab} />
         </Stack.Navigator>
       </NavigationContainer>
     </>
