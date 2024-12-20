@@ -5,6 +5,7 @@ import SplashScreen from './src/screens/SplashScreen';
 import {RootStackParamList} from './src/types/types';
 import OnBoardingScreen from './src/screens/OnBoardingScreen';
 import BottomTab from './src/components/BottomTab';
+import DetailCoffeeScreen from './src/screens/DetailCoffeeScreen';
 
 export default function App() {
   const Stack = createStackNavigator<RootStackParamList>();
@@ -19,6 +20,13 @@ export default function App() {
           <Stack.Screen name="SplashScreen" component={SplashScreen} />
           <Stack.Screen name="OnBoardingScreen" component={OnBoardingScreen} />
           <Stack.Screen name="HomeScreen" component={BottomTab} />
+          <Stack.Screen
+            name="DetailCoffeeScreen"
+            options={{
+              headerShown: false,
+            }}
+            component={DetailCoffeeScreen}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </>

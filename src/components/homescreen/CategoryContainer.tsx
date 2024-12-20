@@ -20,8 +20,10 @@ export default function CategoryContainer({
       renderItem={({item}) => (
         <CategoryCard
           title={item.title}
-          backgroundColor={item.title === selectedCategory ? '#DE8F5F' : '#FFF'}
-          color={item.title === selectedCategory ? 'white' : '#000'}
+          backgroundColor={
+            item.title === selectedCategory ? '#DE8F5F' : '#F5F7F8'
+          }
+          color={item.title === selectedCategory ? 'white' : '#10375C'}
           onPress={() => onSelectCategory(item.title)}
         />
       )}

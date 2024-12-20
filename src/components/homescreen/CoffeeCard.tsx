@@ -1,11 +1,19 @@
 import React from 'react';
-import {View, Image, Text, StyleSheet, ImageSourcePropType} from 'react-native';
+import {
+  View,
+  Image,
+  Text,
+  StyleSheet,
+  ImageSourcePropType,
+  Pressable,
+} from 'react-native';
 
 interface CoffeeCard {
   image: ImageSourcePropType;
   title: string;
   description: string;
   price: string;
+  onPress: () => void;
 }
 
 export default function CoffeeCard({
@@ -13,16 +21,17 @@ export default function CoffeeCard({
   title,
   description,
   price,
+  onPress,
 }: CoffeeCard) {
   return (
-    <View style={styles.card}>
+    <Pressable style={styles.card} onPress={onPress}>
       <View style={styles.imageContainer}>
         <Image source={image} style={styles.image} />
       </View>
       <Text style={styles.title}>{title}</Text>
       <Text style={styles.description}>{description}</Text>
       <Text style={styles.price}>{price}</Text>
-    </View>
+    </Pressable>
   );
 }
 
@@ -35,6 +44,13 @@ const styles = StyleSheet.create({
     borderRadius: 15,
     borderWidth: 1,
     borderColor: '#F4F6FF',
+    backgroundColor: 'white',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.05,
   },
   imageContainer: {
     width: '100%',

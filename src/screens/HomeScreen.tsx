@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
-import {SafeAreaView, ScrollView, StyleSheet, FlatList} from 'react-native';
+import {SafeAreaView, StyleSheet, FlatList} from 'react-native';
 import Header from '../components/homescreen/Header';
 import PromoCard from '../components/homescreen/PromoCard';
 import CategoryContainer from '../components/homescreen/CategoryContainer';
 import CoffeeCard from '../components/homescreen/CoffeeCard';
+import {StackNavigationProp} from '@react-navigation/stack';
+import {RootStackParamList} from '../types/types';
 
 const coffeeData = [
   {
@@ -42,13 +44,22 @@ const coffeeData = [
 
 const categories = [
   {title: 'All Coffee', backgroundColor: '#DE8F5F', color: 'white'},
-  {title: 'Machiato', backgroundColor: '#FFF', color: '#000'},
-  {title: 'Latte', backgroundColor: '#FFF', color: '#000'},
-  {title: 'Americano', backgroundColor: '#FFF', color: '#000'},
-  {title: 'Espresso', backgroundColor: '#FFF', color: '#000'},
+  {title: 'Machiato', backgroundColor: '#F4F6FF', color: '#000'},
+  {title: 'Latte', backgroundColor: '#F4F6FF', color: '#000'},
+  {title: 'Americano', backgroundColor: '#F4F6FF', color: '#000'},
+  {title: 'Espresso', backgroundColor: '#F4F6FF', color: '#000'},
 ];
 
-export default function HomeScreen() {
+type HomeScreenNavigation = StackNavigationProp<
+  RootStackParamList,
+  'HomeScreen'
+>;
+
+interface HomeScreen {
+  navigation: HomeScreenNavigation;
+}
+
+export default function HomeScreen({navigation}: HomeScreen) {
   const [selectedCategory, setSelectedCategory] = useState('All Coffee');
 
   const filteredCoffeeData =
@@ -58,34 +69,37 @@ export default function HomeScreen() {
 
   return (
     <>
-      <SafeAreaView style={styles.safeAre}>
-        <ScrollView style={styles.scrollView}>
-          {/* Header */}
-          <Header />
-          {/* Promo Card */}
-          <PromoCard />
-          {/* Category */}
-          <CategoryContainer
-            categories={categories}
-            onSelectCategory={setSelectedCategory}
-            selectedCategory={selectedCategory}
-          />
-          {/* Coffee List */}
-          <FlatList
-            data={filteredCoffeeData}
-            renderItem={({item}) => (
-              <CoffeeCard
-                image={item.image}
-                title={item.title}
-                description={item.description}
-                price={item.price}
+      <SafeAreaView style={styles.safeArea}>
+        <FlatList
+          ListHeaderComponent={
+            <>
+              <Header />
+              <PromoCard />
+              <CategoryContainer
+                categories={categories}
+                onSelectCategory={setSelectedCategory}
+                selectedCategory={selectedCategory}
               />
-            )}
-            keyExtractor={item => item.id}
-            numColumns={2}
-            contentContainerStyle={styles.coffeeList}
-          />
-        </ScrollView>
+            </>
+          }
+          data={filteredCoffeeData}
+          renderItem={({item}) => (
+            <CoffeeCard
+              onPress={() =>
+                navigation.navigate('DetailCoffeeScreen', {
+                  item,
+                })
+              }
+              image={item.image}
+              title={item.title}
+              description={item.description}
+              price={item.price}
+            />
+          )}
+          keyExtractor={item => item.id}
+          numColumns={2}
+          contentContainerStyle={styles.contentContainer}
+        />
       </SafeAreaView>
     </>
   );
@@ -95,10 +109,11 @@ const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: 'white',
   },
-  coffeeList: {
-    paddingHorizontal: 10,
+  contentContainer: {
+    backgroundColor: 'white',
+    minHeight: '100%',
   },
-  safeAre: {
+  safeArea: {
     backgroundColor: '#DE8F5F',
   },
 });

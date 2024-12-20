@@ -30,6 +30,6 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 16,
-    fontFamily: 'Nunito-Bold',
+    fontFamily: 'Poppins-SemiBold',
   },
 });
