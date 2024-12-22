@@ -13,7 +13,7 @@ const coffeeData = [
     image: require('../assets/images/americano.jpg'),
     title: 'Hot Americano',
     description: 'Lorem, ipsum.',
-    price: 'Rp.18.000',
+    price: 'Rp 18.000',
     category: 'Americano',
   },
   {
@@ -21,7 +21,7 @@ const coffeeData = [
     image: require('../assets/images/americano.jpg'),
     title: 'Iced Americano',
     description: 'Lorem, ipsum.',
-    price: 'Rp.22.000',
+    price: 'Rp 22.000',
     category: 'Americano',
   },
   {
@@ -29,7 +29,7 @@ const coffeeData = [
     image: require('../assets/images/americano.jpg'),
     title: 'Hot Latte',
     description: 'Lorem, ipsum.',
-    price: 'Rp.20.000',
+    price: 'Rp 20.000',
     category: 'Latte',
   },
   {
@@ -37,7 +37,7 @@ const coffeeData = [
     image: require('../assets/images/americano.jpg'),
     title: 'Iced Latte',
     description: 'Lorem, ipsum.',
-    price: 'Rp.24.000',
+    price: 'Rp 24.000',
     category: 'Latte',
   },
 ];
