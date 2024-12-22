@@ -4,9 +4,10 @@ import {View, Text, StyleSheet, Pressable} from 'react-native';
 
 interface BottomBarProps {
   price: string;
+  onPressBuyNow: () => void;
 }
 
-export default function BottomBar({price}: BottomBarProps) {
+export default function BottomBar({price, onPressBuyNow}: BottomBarProps) {
   return (
     <View style={styles.bottomSheet}>
       <View style={styles.bottomSheetContent}>
@@ -14,7 +15,7 @@ export default function BottomBar({price}: BottomBarProps) {
           <Text style={styles.priceLabel}>Price</Text>
           <Text style={styles.priceValue}>{price}</Text>
         </View>
-        <Pressable style={styles.buyNowButton}>
+        <Pressable style={styles.buyNowButton} onPress={onPressBuyNow}>
           <Text style={styles.buyNowText}>Buy Now</Text>
         </Pressable>
       </View>
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.025,
     width: '100%',
-    minHeight: 125,
+    minHeight: 200,
   },
   bottomSheetContent: {
     flexDirection: 'row',

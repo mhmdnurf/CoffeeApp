@@ -46,6 +46,7 @@ export default function Size({onSizeSelect}: SizeProps) {
 const styles = StyleSheet.create({
   container: {
     paddingHorizontal: 20,
+    marginBottom: 20,
   },
   title: {
     fontSize: 20,

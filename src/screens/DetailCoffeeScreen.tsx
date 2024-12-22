@@ -39,11 +39,26 @@ export default function DetailCoffeeScreen({
     <>
       <SafeAreaView style={styles.safeArea}>
         <Header onPress={() => navigation.goBack()} />
-        <ScrollView>
+        <ScrollView contentContainerStyle={styles.scrollViewContent}>
           <Banner source={item.image} />
           <Content coffeeName={item.title} />
         </ScrollView>
-        <BottomBar price={item.price} />
+        <BottomBar
+          price={item.price}
+          onPressBuyNow={() =>
+            navigation.navigate('OrderScreen', {
+              route: {
+                params: {
+                  item: {
+                    image: item.image,
+                    title: item.title,
+                    price: item.price,
+                  },
+                },
+              },
+            })
+          }
+        />
       </SafeAreaView>
     </>
   );
@@ -53,5 +68,8 @@ const styles = StyleSheet.create({
   safeArea: {
     backgroundColor: 'white',
     minHeight: '100%',
+  },
+  scrollViewContent: {
+    paddingBottom: 175,
   },
 });

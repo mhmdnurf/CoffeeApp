@@ -6,6 +6,7 @@ import {RootStackParamList} from './src/types/types';
 import OnBoardingScreen from './src/screens/OnBoardingScreen';
 import BottomTab from './src/components/BottomTab';
 import DetailCoffeeScreen from './src/screens/DetailCoffeeScreen';
+import OrderScreen from './src/screens/OrderScreen';
 
 export default function App() {
   const Stack = createStackNavigator<RootStackParamList>();
@@ -27,6 +28,7 @@ export default function App() {
             }}
             component={DetailCoffeeScreen}
           />
+          <Stack.Screen name="OrderScreen" component={OrderScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </>

@@ -16,4 +16,15 @@ export type RootStackParamList = {
       };
     };
   };
+  OrderScreen: {
+    route: {
+      params: {
+        item: {
+          image: ImageSourcePropType;
+          title: string;
+          price: string;
+        };
+      };
+    };
+  };
 };
