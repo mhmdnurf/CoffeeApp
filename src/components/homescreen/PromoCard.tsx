@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   promoTitle: {
-    fontSize: 28,
+    fontSize: 24,
     fontFamily: 'Poppins-Bold',
     marginTop: 10,
     color: 'white',

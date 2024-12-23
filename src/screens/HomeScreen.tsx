@@ -71,6 +71,7 @@ export default function HomeScreen({navigation}: HomeScreen) {
     <>
       <SafeAreaView style={styles.safeArea}>
         <FlatList
+          showsVerticalScrollIndicator={false}
           ListHeaderComponent={
             <>
               <Header />
@@ -87,7 +88,14 @@ export default function HomeScreen({navigation}: HomeScreen) {
             <CoffeeCard
               onPress={() =>
                 navigation.navigate('DetailCoffeeScreen', {
-                  item,
+                  item: {
+                    id: item.id,
+                    image: item.image,
+                    title: item.title,
+                    description: item.description,
+                    price: item.price,
+                    category: item.category,
+                  },
                 })
               }
               image={item.image}

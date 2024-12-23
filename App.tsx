@@ -23,9 +23,6 @@ export default function App() {
           <Stack.Screen name="HomeScreen" component={BottomTab} />
           <Stack.Screen
             name="DetailCoffeeScreen"
-            options={{
-              headerShown: false,
-            }}
             component={DetailCoffeeScreen}
           />
           <Stack.Screen name="OrderScreen" component={OrderScreen} />

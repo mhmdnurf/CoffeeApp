@@ -5,26 +5,23 @@ export type RootStackParamList = {
   OnBoardingScreen: undefined;
   HomeScreen: undefined;
   DetailCoffeeScreen: {
-    route: {
-      params: {
-        item: {
-          image: ImageSourcePropType;
-          title: string;
-          description: string;
-          price: string;
-        };
-      };
+    item: {
+      id: string;
+      image: ImageSourcePropType;
+      title: string;
+      description: string;
+      price: string;
+      category: string;
     };
   };
   OrderScreen: {
-    route: {
-      params: {
-        item: {
-          image: ImageSourcePropType;
-          title: string;
-          price: string;
-        };
-      };
+    item: {
+      id: string;
+      image: ImageSourcePropType;
+      title: string;
+      description: string;
+      price: string;
+      category: string;
     };
   };
 };

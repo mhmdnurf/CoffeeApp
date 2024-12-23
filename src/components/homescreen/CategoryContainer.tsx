@@ -30,6 +30,7 @@ export default function CategoryContainer({
       keyExtractor={item => item.title}
       horizontal
       contentContainerStyle={styles.categoryList}
+      showsHorizontalScrollIndicator={false}
     />
   );
 }

@@ -22,10 +22,12 @@ interface DetailCoffeeScreen {
   route: {
     params: {
       item: {
+        id: string;
         image: ImageSourcePropType;
         title: string;
         description: string;
         price: string;
+        category: string;
       };
     };
   };
@@ -47,14 +49,13 @@ export default function DetailCoffeeScreen({
           price={item.price}
           onPressBuyNow={() =>
             navigation.navigate('OrderScreen', {
-              route: {
-                params: {
-                  item: {
-                    image: item.image,
-                    title: item.title,
-                    price: item.price,
-                  },
-                },
+              item: {
+                id: item.id,
+                image: item.image,
+                title: item.title,
+                description: item.description,
+                price: item.price,
+                category: item.category,
               },
             })
           }
